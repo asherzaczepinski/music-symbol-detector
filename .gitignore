@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Audiveris build artifacts
+audiveris/
+audiveris_output/
+
+# Temporary files
+*_temp_upscaled.png
+*.omr
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test outputs (keep example outputs)
+input_upscaled.png
+input_upscaled_detected.png
